@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        /* INTERNAL CSS  */
+        /* kita akan buat semua H1 di html ini menjadi teks biru bg grey  */
+        h1 {
+            color: #3b5c95;
+            background-color: grey;
+        }
+        .artikel h1 {
+            color: purple;
+        }
+        #judul.artikel h1 {
+            color:pink;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- INLINE CSS  -->
+    <h1 style="color: #1D3D70; background-color: grey;">Judul 1</h1>
+    <h1 class="text-red">Judul 2</h1>
+    <h1 class="text-red bg-blue text-white">Judul 3</h1>
+    <h1 id="judul-4">Judul 4</h1>
+    <h1 id="judul-5" class="bg-blue" style="color: red; background-color:orange">Judul 5</h1>
+    <div class="artikel">
+        <h1>Judul Artikel</h1>
+    </div>
+    <div id="judul" class="artikel">
+        <h1>Judul Artikel</h1>
+    </div>
+</body>
+</html>

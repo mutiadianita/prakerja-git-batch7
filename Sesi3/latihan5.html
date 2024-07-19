@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Position</title>
+    <style>
+        #box-static {
+            position: static;
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+        }
+        #box-relative {
+            position: relative;
+            /* top/bottom  */
+            bottom: 50px;
+            /* left/right  */
+            left: 50px;
+            width: 400px;
+            height: 400px;
+            background-color: red;
+        }
+        #box-absolute {
+            position: absolute;
+            /* top/bottom  */
+            top: 50px;
+            /* left/right  */
+            right: 50px;
+            width: 400px;
+            height: 400px;
+            background-color: green;
+        }
+        #box-fixed {
+            position: fixed;
+            /* top/bottom  */
+            top: 50px;
+            /* left/right  */
+            right: 50px;
+            width: 400px;
+            height: 400px;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div id="box-static">Box Static</div>
+    <div id="box-static">Box Static</div>
+    <div id="box-static">Box Static</div>
+    <div id="box-static">Box Static</div>
+    <div id="box-static">Box Static</div>
+    <div id="box-relative">Box Relative</div>
+    <div id="box-absolute">Box Absolute</div>
+    <div id="box-fixed">Box Fixed</div>
+</body>
+</html>

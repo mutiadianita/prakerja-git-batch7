@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+        }
+
+        .item {
+            padding: 10px;
+            flex: 1;
+        }
+
+        .item-1 {
+            background-color: lightblue;
+        }
+
+        .item-2 {
+            flex: 2;
+            background-color: coral;
+        }
+
+        .item-3 {
+            background-color: pink;
+        }
+
+        @media(min-width:576px) {
+            .container {
+                flex-direction: row;
+            }
+            .item-1 {
+                background-color: khaki;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item item-1">
+            Suatu keadaan sebuah halaman web dimana tampilannya akan cocok, rapi dan tetap enak dilihat
+            jika diakses dari perangkat apapun dengan resolusi layar yang berbeda. Misalnya, ketika anda mengakses blog
+            ini dengan perangkat (PC/HP/Tablet) yang berbeda, anda akan melihat tampilannya berbeda karena menyesuaika
+            dengan layar. Secara umum, sebuah halaman web tidak bisa menyesuaikan tampilannya sendiri dengan resolusi
+            layar perangkat yang mengaksesnya.
+        </div>
+        <div class="item item-2">
+            Suatu keadaan sebuah halaman web dimana tampilannya akan cocok, rapi dan tetap enak dilihat
+            jika diakses dari perangkat apapun dengan resolusi layar yang berbeda. Misalnya, ketika anda mengakses blog
+            ini dengan perangkat (PC/HP/Tablet) yang berbeda, anda akan melihat tampilannya berbeda karena menyesuaika
+            dengan layar. Secara umum, sebuah halaman web tidak bisa menyesuaikan tampilannya sendiri dengan resolusi
+            layar perangkat yang mengaksesnya.
+        </div>
+        <div class="item item-3">
+            Suatu keadaan sebuah halaman web dimana tampilannya akan cocok, rapi dan tetap enak dilihat
+            jika diakses dari perangkat apapun dengan resolusi layar yang berbeda. Misalnya, ketika anda mengakses blog
+            ini dengan perangkat (PC/HP/Tablet) yang berbeda, anda akan melihat tampilannya berbeda karena menyesuaika
+            dengan layar. Secara umum, sebuah halaman web tidak bisa menyesuaikan tampilannya sendiri dengan resolusi
+            layar perangkat yang mengaksesnya.
+        </div>
+    </div>
+</body>
+
+</html>

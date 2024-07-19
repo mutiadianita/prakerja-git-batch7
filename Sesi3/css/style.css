@@ -1,0 +1,23 @@
+/* EXTERNAL CSS  */
+/* selector class menggunakan titik (.) di depan  */
+
+.text-white {
+    color: white;
+}
+.text-red {
+    color: red;
+}
+.bg-blue {
+    background-color: lightblue;
+}
+
+
+
+/* selector id menggunakan pagar (#) di depan  */
+#judul-4 {
+    color: green;
+    background-color: khaki;
+}
+#judul-5 {
+    color: violet;
+}
